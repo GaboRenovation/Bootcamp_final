@@ -74,6 +74,7 @@ docs/_build/
 .DS_Store
 config.py
 config.js
+Notas Generales
 
 # PyBuilder
 target/
