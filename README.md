@@ -7,12 +7,15 @@ _______________________________________________
 ### Summary
 
 ✓ Selected topic:  Retail information de SuperStore.
+
 ✓ Reason why we selected this topic:
+
 Real information gathered from a trusted source related to commercial registries of an International Vendor.
 This data model can be also aplicable to other markets being multi-purpose.
 Its versatility can also help us to apply concepts such as ETL (Extract, Transform and Loading), Data Engineering and Machine Learning.
 
 ✓ Description of their source of data
+
 Real information from a trusted source.
 The database contains 50k+ registries.
 Sales data from 2011 to 2014.
