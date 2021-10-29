@@ -85,6 +85,7 @@ Team 2
 - All rights reserved
 
 
+![Gantt](Imgs_Readme/gantt.png)
 
 
 
