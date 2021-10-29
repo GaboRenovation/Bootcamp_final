@@ -21,13 +21,13 @@ _______________________________________________
 
 ## Description of the data source
 
-Real information from a trusted source.
+- Real information from a trusted source.
 
-The database contains 50k+ registries.
+- The database contains 50k+ registries.
 
-Sales data from 2011 to 2014.
+- Sales data from 2011 to 2014.
 
-Information in a CSV file.
+- Information in a CSV file.
 
 ----------------------------------------------
 ![Database](Imgs_Readme/database.png)
@@ -35,6 +35,9 @@ Information in a CSV file.
 This will be the Database Schema:
 
 ![Database_Schema](Imgs_Readme/DatabaseSchema.png)
+
+![Superstore_DataBase_Diagram](https://user-images.githubusercontent.com/83261520/139485146-c2a327f5-56a6-425c-b878-93c48277c715.png)
+
 ----------------------------------------------
 
 ## Questions we hope to answer with the data 
