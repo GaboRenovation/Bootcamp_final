@@ -36,7 +36,8 @@ This will be the Database Schema:
 
 ![Database_Schema](Imgs_Readme/DatabaseSchema.png)
 
-![Superstore_DataBase_Diagram](https://user-images.githubusercontent.com/83261520/139485146-c2a327f5-56a6-425c-b878-93c48277c715.png)
+
+![Superstore_DataBase_Diagram](https://user-images.githubusercontent.com/83261520/139514694-c756ca3f-afd8-48dc-85b5-b17628118887.png)
 
 ----------------------------------------------
 
