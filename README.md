@@ -12,7 +12,7 @@ _______________________________________________
 
 ## Reason why we selected this topic:
 
-- Real information gathered from a trusted source related to commercial registries of an International Vendor.
+- Information gathered from a trusted source related to commercial registries of an International Vendor. https://www.kaggle.com/shekpaul/global-superstore
 
 - This data model can be also aplicable to other markets being multi-purpose.
 
