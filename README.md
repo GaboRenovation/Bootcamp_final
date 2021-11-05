@@ -92,5 +92,55 @@ Team 2
 ![Gantt](Imgs_Readme/gantt.png)
 
 
+## Machine Learning Model
 
+The main goal of the developed machine learning model was to come up with a model that could tell if an order was going to be profitable or not. To acomplish such task the following requisites were done:
+
+### Data preprocessing
+
+The dataset contained the following information:
+
+![image](https://user-images.githubusercontent.com/83261520/140445979-d7eaf369-b703-4f14-94eb-cc247a2528bf.png)
+
+Through exploration of the dataset the following conclusions and actions took place:
+
+- The size of the dataset had over 50,000 records wich is a good amount for a Machine Learning Model.
+- Some columns needed to be transformed to a different data type, for example, columns 'ship_date' and 'order_date'.
+- There were certain columns than contained null values ('postal_code','person','return'), therefore, needed to be discarded for the model.
+- Not all columns could be used for the model as some of them had values that are not suitable for machine learning and needed to be dropped.
+- Some columns could be added based on information for other columns in order to be used for the machine learning model.
+
+### Feature engineering and preliminary feature selection, including the decision-making process
+
+After the exploration was done, the following columns were dropped due to the fact that they did not have relevant information that could be used to train the model: 
+
+'row_id',
+'order_id',
+'customer_id',
+'customer_name',
+'postal_code',
+'product_id',
+'product_name',
+'ship_date',
+'city',
+'state',
+'country',
+'order_date',
+'sub_category',
+'market',
+'profit',
+'person',
+'return'
+
+From the column 'profit' we got our dependant variable (y), a new column was created from this called 'profit_classification', where the values greater 0 were classified with a 1 and values lesser than 0 were classified with 0.
+
+For our independent variables (X) the following were chosen as we considered these were relevant to predit the outcome of profit: 'sales', 'quantity', 'ship_mode', 'segment', 'region', 'category', 'discount', 'shipping_cost', 'order_priority', 'week_day', 'month_number'. Some of these variables needed transformation as they were categorical values, using OneHotEncoder the following variables were transformed: 'ship_mode', 'segment', 'region', 'category', 'order_priority'.
+
+### Description of how data was split into training and testing sets
+
+The dataset was split 75% for training and 25%, the reson for this is the defaul value of train_test_split function as it is based in a thumb rule for machine learning models.
+
+### Explanation of model choice, including limitations and benefits
+
+Logistic Regression was chosen for this purpose as it is a simple yet practical model for our goal. The reason behind this decision is beacuse is a classification model that can easily tell us in a binary way if an order will be either profitable (1) or not profitable (0). The limitations of the model is that as it is binary it could not tell us a quantity, meaning that if an order is profitable it can not tell the amount for example.
 
