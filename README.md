@@ -151,9 +151,9 @@ _______________________________________________
 _______________________________________________
 
 
-- Machine Learning Model - file name: Superstore_ML_Model
+- Machine Learning Model - file name: **Superstore_ML_Model.ipynb**
 
-- Entity relationship diagram (ERD) - file name: Superstore_DataBase_Diagram.png
+- Entity relationship diagram (ERD) - file name: **Superstore_DataBase_Diagram.png**
 
-- Superstore databease SQL - file name:
+- Superstore databease SQL - file name: **superstore_database.sql**
 
