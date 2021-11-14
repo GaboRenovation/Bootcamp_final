@@ -1,6 +1,8 @@
 
-## Retail information of the SuperStore.
+# Retail information of the SuperStore.
 (selected topic)
+
+###  2nd Deliverable info, at the very bottom.
 
 
 _______________________________________________
