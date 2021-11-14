@@ -146,7 +146,7 @@ Logistic Regression was chosen for this purpose as it is a simple yet practical 
 
 _______________________________________________
 
-# Contents of repository
+# Contents of repository 2nd Deliverable
 
 _______________________________________________
 
@@ -156,4 +156,6 @@ _______________________________________________
 - Entity relationship diagram (ERD) - file name: **Superstore_DataBase_Diagram.png**
 
 - Superstore databease SQL - file name: **superstore_database.sql**
+
+- Presentation Second Deliverable - file name: **Presentation_2nd_Deliverable.pdf**
 
