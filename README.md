@@ -146,6 +146,11 @@ The dataset was split 75% for training and 25%, the reson for this is the defaul
 
 Logistic Regression was chosen for this purpose as it is a simple yet practical model for our goal. The reason behind this decision is beacuse is a classification model that can easily tell us in a binary way if an order will be either profitable (1) or not profitable (0). The limitations of the model is that as it is binary it could not tell us a quantity, meaning that if an order is profitable it can not tell the amount for example.
 
+### Explanation of changes in model choice
+### Description of how they have trained the model thus far, and any additional training that will take place
+### Description of current accuracy score
+### Description and explanation of model’s confusion matrix, including final accuracy score
+
 _______________________________________________
 
 # Contents of repository 2nd Deliverable
