@@ -94,7 +94,7 @@ Three machine learning models were developed:
 
 1. ***Supervised machine learning to classify and predict profitable orders (profitable - not profitable).***
 2. ***Supervised machine learning to classify and predict if an order is going to be returned (return - no return).***
-3. ***Deep Neural Network to predict daily sales.***
+3. ***Neural Network to predict daily sales.***
 
 
 ### Data preprocessing
@@ -134,7 +134,7 @@ From the column 'return' we got our dependant variable (y) which has either the 
 
 For our independent variables (X) the following were chosen as we considered these were relevant to predit the outcome of profit: 'ship_mode', 'segment', 'region', 'category', 'quantity', 'discount', 'shipping_cost' and 'order_priority'. Some of these variables needed transformation as they were categorical values, using OneHotEncoder the following variables were transformed: 'ship_mode', 'segment', 'region', 'category', 'order_priority'.
 
-#### **Third Model - Deep Neural Network to predict daily sales.** 
+#### **Third Model - Neural Network to predict daily sales.** 
 
 In the case of this model the data had to be grouped by day as shown below:
 
@@ -157,7 +157,7 @@ For all the models the dataset was split 75% for training and 25%, the reson for
 
 A **Balanced Random Forest** was chosen for this purpose. The reason behind this decision is beacuse is a classification model that can easily tell us in a binary way if an order will be returned (1) or not (0), also it can rank the importance of inout variables. The limitations of the model is that as it is like a black box which is hard to explian what exactly is doing or why is doing it.
 
-#### **Third Model - Deep Neural Network to predict daily sales.** 
+#### **Third Model - Neural Network to predict daily sales.** 
 
 For this model a **LSTM (Long-Short Term Memory) Neural Network was used** as this is one of the most popular machine learning methods for time series forcasting which is the case at the time of predicting future sales. The benefits of this model is that it is relatively easy to train although just like the previous model it is a black box which could be a limitation when asking how the model works.
 
@@ -175,7 +175,7 @@ This model was trained with 100 iterations,no additional training is taking plac
 
 This model was trained using 500 estimators, additional training is taking place for this model.
 
-#### **Third Model - Deep Neural Network to predict daily sales.** 
+#### **Third Model - Neural Network to predict daily sales.** 
 
 This model was trained using 4 hidden layers, with 50, 70, 90 and 110 neurons each one of these had 'relu' as its activation function. As it is a regression problem it was compiled using 'mean_squared_error' as loss. The model was train for 100 epochs. Additional training is taking place for this model.
 
@@ -204,7 +204,7 @@ The advantage of the model is that we are able to see the importances of each va
 To improve this model a larger sample will be needed.
 
 
-#### **Third Model - Deep Neural Network to predict daily sales.** 
+#### **Third Model - Neural Network to predict daily sales.** 
 
 As this is a time-series model a good way to determine its accuracy is through the RMSE (Root Mean Square Error), in this case it was 999.91
 
