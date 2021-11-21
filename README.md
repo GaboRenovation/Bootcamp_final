@@ -229,8 +229,7 @@ Some ways we might be able to reduce the RMSE coul be by grouping the data into 
 
 _______________________________________________
 
-# Contents of repository 2nd Deliverable
-
+# Relevant content of this Readme
 _______________________________________________
 
 
@@ -243,6 +242,10 @@ _______________________________________________
 - Presentation Second Deliverable - file name: **Presentation_2nd_Deliverable.pdf**
 
 link: https://docs.google.com/presentation/d/1kp4-RlbhRlEGugGXvVQOMgmM1YDX2mrh/edit?pli=1#slide=id.p11    
+
+Initial Dashboard: https://public.tableau.com/app/profile/gabo.renovation/viz/BootCamp_Team2A/SalesPerformance?publish=yes
+
+Project Dashboard: https://public.tableau.com/app/profile/gabo.renovation/viz/Bootcamp_Team2C/Dashboard1?publish=yes
 
 ----------------------------------------------
 
