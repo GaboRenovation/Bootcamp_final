@@ -2,7 +2,18 @@
 # Retail information of the SuperStore.
 (selected topic)
 
-###  2nd Deliverable info, at the very bottom.
+
+###  3rd Deliverable info:
+
+Dashboards created:
+
+https://public.tableau.com/app/profile/gabo.renovation/viz/BootCamp_Team2A/SalesPerformance?publish=yes
+
+https://public.tableau.com/app/profile/gabo.renovation/viz/Bootcamp_Team2C/Dashboard1?publish=yes
+
+As well as all the documentation of the Machile Learning added to this Readme (please see all the comments below).
+
+
 
 
 _______________________________________________
