@@ -82,14 +82,6 @@ The mockup for the Machine Learning would be as follows:
 
 ----------------------------------------------
 
-## Description of the communication protocols 
-The team has agreed to maintain communication on a daily basis through the following channels:
-- Slack
-- Whatsapp
-- Mail
-- Github
-During the project the team is considering some brainstorming sessions as well as design thinking reviews.
-
 #### Individual Branches already set in GitHub, so the team members will be pushing code and related information properly.
 
 ![Branches](Imgs_Readme/Branches.png)
