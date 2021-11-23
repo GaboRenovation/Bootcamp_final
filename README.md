@@ -160,7 +160,7 @@ For all the models the dataset was split 75% for training and 25%, the reson for
 
 A **Balanced Random Forest** was chosen for this purpose. The reason behind this decision is beacuse is a classification model that can easily tell us in a binary way if an order will be returned (1) or not (0), also it can rank the importance of inout variables. The limitations of the model is that as it is like a black box which is hard to explian what exactly is doing or why is doing it.
 
-#### **Third Model - Neural Network to predict daily sales.** 
+#### **Third Model - Neural Network to predict weekly sales.** 
 
 For this model a **LSTM (Long-Short Term Memory) Neural Network was used** as this is one of the most popular machine learning methods for time series forcasting which is the case at the time of predicting future sales. The benefits of this model is that it is relatively easy to train although just like the previous model it is a black box which could be a limitation when asking how the model works.
 
@@ -178,9 +178,9 @@ This model was trained with 100 iterations,no additional training is taking plac
 
 This model was trained using 500 estimators, additional training is taking place for this model.
 
-#### **Third Model - Neural Network to predict daily sales.** 
+#### **Third Model - Neural Network to predict weekly sales.** 
 
-This model was trained using 4 hidden layers, with 50, 70, 90 and 110 neurons each one of these had 'relu' as its activation function. As it is a regression problem it was compiled using 'mean_squared_error' as loss. The model was train for 100 epochs. Additional training is taking place for this model.
+This model was trained using 4 hidden layers, with 50, 70, 90 and 110 neurons each one of these had 'relu' as its activation function. As it is a regression problem it was compiled using 'mean_squared_error' as loss. The model was train for 20 epochs. Additional training is taking place for this model.
 
 ### Description and explanation of model’s confusion matrix and accuracy score
 
@@ -207,17 +207,18 @@ The advantage of the model is that we are able to see the importances of each va
 To improve this model a larger sample will be needed.
 
 
-#### **Third Model - Neural Network to predict daily sales.** 
+#### **Third Model - Neural Network to predict weekly sales.** 
 
-As this is a time-series model a good way to determine its accuracy is through the RMSE (Root Mean Square Error), in this case it was 999.91
+As this is a time-series model a good way to determine its accuracy is through the RMSE (Root Mean Square Error), in this case it was 6528.25
 
-On the graphs below we are able to see the prediction from the model vs the real daily sales.
+On the graphs below we are able to see the prediction from the model vs the real weekly sales.
 
-![image](https://user-images.githubusercontent.com/83261520/142709932-487a5ede-3fa5-4c1f-81cb-7f302621888d.png)
+![image](https://user-images.githubusercontent.com/83261520/142963865-c580dab7-ec08-464f-b07e-643eda91857a.png)
 
-![image](https://user-images.githubusercontent.com/83261520/142709935-2c08752f-a175-4b24-811b-9a05f1db2c9a.png)
+![image](https://user-images.githubusercontent.com/83261520/142963882-92029ab9-099a-4470-b982-ea09b4986d2f.png)
 
-Some ways we might be able to reduce the RMSE coul be by grouping the data into larger periods (instead of days, group it by month or week for example) however with the current size of the data is not possible as the sample will not be that big for the model.
+
+Some ways we might be able to reduce the RMSE could be by keep gathering data until the sample is big enough for the neural network, the data sample for this analysis was not big enough due to limitations of the data sample.
 
 _______________________________________________
 
