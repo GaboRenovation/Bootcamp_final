@@ -3,7 +3,7 @@
 (selected topic)
 
 
-###  3rd Deliverable info:
+### Deliverable info:
 
 Dashboards created:
 
