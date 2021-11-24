@@ -1,0 +1,30 @@
+quantity,0.214491139274429
+discount,0.133594962553854
+shipping_cost,0.216588800662196
+ship_mode_First Class,0.012696057342571
+ship_mode_Same Day,0.006566694850243
+ship_mode_Second Class,0.016364709080322
+ship_mode_Standard Class,0.019256350978517
+segment_Consumer,0.023754906475701
+segment_Corporate,0.019444742365133
+segment_Home Office,0.01548030628442
+region_Africa,0.039457410091523
+region_Canada,0.002283146052437
+region_Caribbean,0.004258470288584
+region_Central,0.013285296465112
+region_Central Asia,0.005598970903641
+region_EMEA,0.042984707347104
+region_East,0.006304959087809
+region_North,0.026252699881873
+region_North Asia,0.022555485112569
+region_Oceania,0.006997829818194
+region_South,0.010510598005803
+region_Southeast Asia,0.006357735515944
+region_West,0.026267779644343
+category_Furniture,0.016009997275349
+category_Office Supplies,0.021813566050241
+category_Technology,0.015563791739078
+order_priority_Critical,0.007181962392397
+order_priority_High,0.020365833205563
+order_priority_Low,0.006801358293544
+order_priority_Medium,0.020909732961509
