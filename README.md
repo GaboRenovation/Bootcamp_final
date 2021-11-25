@@ -6,6 +6,7 @@
 ### Deliverable info:
 
 Dashboards created:
+
 https://public.tableau.com/app/profile/gabo.renovation/viz/Superstore_team2_Executive-Dashboard/Dashboard1?publish=yes
 
 https://public.tableau.com/app/profile/gabo.renovation/viz/BootCamp_Team2A/SalesPerformance?publish=yes
